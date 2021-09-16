@@ -11,7 +11,7 @@ body{
 
 header{
   background-color: #E579E6;
-  height: 50px;
+  height: 80px;
 }
 
 .clearfix::after{
@@ -21,7 +21,7 @@ header{
 }
 
 main{
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
   min-height: 500px;
   background-color: #0086FF;
 }
@@ -40,7 +40,7 @@ main{
 
 aside, section{
   float: left;
-  margin-top: 12px;
+  margin-top: 13px;
   min-height: 429px;
 }
 
@@ -64,4 +64,9 @@ aside, section{
 
 .centre{
   background-color: #ABCFE7;
+}
+
+footer{
+  background-color: #8801FE;
+  height: 50px;
 }
